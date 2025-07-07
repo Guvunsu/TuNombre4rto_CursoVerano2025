@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5229ebbed7c67c149882f7850b85d255
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - headLilyLifesPrefab: {fileID: 8776757965247024863, guid: ed09296353e28be45a5a8b413a4efe41,
+      type: 3}
+  - _hierarchy: {fileID: 9197481963319205126, guid: e73ed141f5ce51b4aa5421add5fe2e1d,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

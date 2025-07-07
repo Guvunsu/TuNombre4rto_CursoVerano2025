@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label text="Generator" />
+        <ui:Button text="Instantiate" name="Instantiate" style="border-left-color: rgb(212, 212, 212); border-right-color: rgb(212, 212, 212); border-top-color: rgb(212, 212, 212); border-bottom-color: rgb(212, 212, 212); background-color: rgb(102, 255, 237);" />
+        <uie:ObjectField label="Object Field" value="project://database/Assets/PLAYER%20TWO/Platformer%20Project/Examples/Prefabs/Collectables/Life.prefab?fileID=2009351834949706560&amp;guid=cc67b31ff27c2c74eb5dc7d234603296&amp;type=3#Life" name="ObjectField" />
+        <ui:Button text="CreateButton" name="createButton" style="background-color: rgb(255, 194, 129);" />
+        <ui:Button text="Destroy Layout" name="Destroy" style="background-color: rgb(255, 194, 129);" />
+    </ui:VisualElement>
+</ui:UXML>

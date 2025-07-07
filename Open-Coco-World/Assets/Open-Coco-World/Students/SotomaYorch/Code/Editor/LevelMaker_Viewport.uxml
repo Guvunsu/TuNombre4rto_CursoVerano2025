@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 0; visibility: visible; height: auto; justify-content: flex-start; align-items: flex-start; overflow: visible; position: relative; flex-basis: auto;">
+        <ui:Label text="Operation of this Tool" />
+        <ui:Toggle label="Operating" name="Operating" />
+        <ui:TextField label="Scene" value="SotomaYorch" name="Scene" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 0;">
+        <ui:Label text="Game Entity to Instantiate" />
+        <uie:ObjectField label="Prefab" type="UnityEngine.GameObject, UnityEngine.CoreModule" name="Prefab" allow-scene-objects="false" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 0;">
+        <ui:Label text="Game entity Management" />
+        <uie:ObjectField label="Root" name="Root" />
+        <ui:SliderInt label="SliderInt" value="42" high-value="100" />
+        <ui:Button text="Delete All Created Instances" name="DeleteAll" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px;" />
+    </ui:VisualElement>
+    <ui:ToggleButtonGroup label="Toggle Button Group" />
+    <ui:Slider label="Slider" value="42" high-value="100" style="align-self: flex-start; width: 340px;" />
+</ui:UXML>

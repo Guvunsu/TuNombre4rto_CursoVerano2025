@@ -1,0 +1,366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6444443923576449193
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5800499823128224579, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      propertyPath: m_Name
+      value: Red Coin_GameEntity
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800499823128224580, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800499823128224580, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800499823128224580, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800499823128224580, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800499823128224580, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800499823128224580, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800499823128224580, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800499823128224580, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800499823128224580, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800499823128224580, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413138731507004404, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      propertyPath: resetTransform
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8413138731507004404, guid: 1e82ffa9dbb4f184d93770f3fc00de36, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5800499823128224579, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 1338863561840071813}
+    - targetCorrespondingSourceObject: {fileID: 5800499823128224579, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8956889482291302790}
+    - targetCorrespondingSourceObject: {fileID: 5800499823128224579, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5720926922537466460}
+    - targetCorrespondingSourceObject: {fileID: 5800499823128224579, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4391037020608628260}
+    - targetCorrespondingSourceObject: {fileID: 5800499823128224579, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5913819901628032598}
+  m_SourcePrefab: {fileID: 100100000, guid: 1e82ffa9dbb4f184d93770f3fc00de36, type: 3}
+--- !u!1 &653233335181822954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5800499823128224579, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+    type: 3}
+  m_PrefabInstance: {fileID: 6444443923576449193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1338863561840071813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653233335181822954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9587404f1752c48d5968626483e923f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectOnContact: 1
+  resetTransform: 1
+  times: 5
+  ghostingDuration: 0.5
+  display: {fileID: 4281436002038507835}
+  clip: {fileID: 8300000, guid: 1170fdadbd6bf0b46b820aae14f65e17, type: 3}
+  particle: {fileID: 6501706541151478683}
+  hidden: 0
+  quickShowHeight: 2
+  quickShowDuration: 0.25
+  hideDuration: 0.5
+  hasLifeTime: 0
+  lifeTimeDuration: 5
+  usePhysics: 0
+  minForceToStopPhysics: 3
+  collisionRadius: 0.5
+  gravity: 15
+  bounciness: 0.98
+  maxBounceYVelocity: 10
+  randomizeInitialDirection: 1
+  initialVelocity: {x: 0, y: 12, z: 0}
+  collisionClip: {fileID: 8300000, guid: 1ab74491ecd5e8a498cf5d6b1a3ffa0b, type: 3}
+  onCollect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8741503908019401729}
+        m_TargetAssemblyTypeName: PLAYERTWO.PlatformerProject.LevelController, Assembly-CSharp
+        m_MethodName: AddCoins
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8956889482291302790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653233335181822954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee01816ab800346c493d0984768262df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  persistantData: {fileID: 0}
+  basicParameters:
+    isAutomaticallyBegun: 0
+    isAlwaysActive: 0
+    isForceStateTransitionable: 1
+    canBeReplayed: 1
+    subGameMechanicEntityFulfillments: 0
+  timeConstrainParameters:
+    isTimeConstrained: 0
+    timeConstrain: 3
+  previouslyCompletedEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2335762009779161326}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: 
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: 1e524d501db5c4ac6a9a089522312d63,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  resetGameEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1338863561840071813}
+        m_TargetAssemblyTypeName: Collectable_OpenCocoWorld, Assembly-CSharp
+        m_MethodName: ResetCollectable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  beginGameEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4391037020608628260}
+        m_TargetAssemblyTypeName: SotomaYorch.Mechanics.OnTimerCause, Assembly-CSharp
+        m_MethodName: BeginTimer
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 3
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  fulfillmentEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4391037020608628260}
+        m_TargetAssemblyTypeName: SotomaYorch.Mechanics.OnTimerCause, Assembly-CSharp
+        m_MethodName: StopTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  failureEvents:
+    m_PersistentCalls:
+      m_Calls: []
+  _currentStatus: 0
+  _subGameMechanicEntityFulfillmentCount: 0
+--- !u!114 &5720926922537466460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653233335181822954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d6195ae483a0d04390dd0bcb7736fc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnterUnityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8956889482291302790}
+        m_TargetAssemblyTypeName: SotomaYorch.Mechanics.Game.GameMechanicEntity,
+          Assembly-CSharp
+        m_MethodName: FulfillGameMechanicEntity
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onStayUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onExitUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  tagsWithOtherTrigger:
+  - Player
+--- !u!114 &4391037020608628260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653233335181822954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 873565a334a6e2549a54b95c446eb506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnterUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onStayUnityEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onExitUnityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8956889482291302790}
+        m_TargetAssemblyTypeName: SotomaYorch.Mechanics.Game.GameMechanicEntity,
+          Assembly-CSharp
+        m_MethodName: FailGameMechanicEntity
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!54 &5913819901628032598
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653233335181822954}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!23 &2335762009779161326 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8720385833918505031, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+    type: 3}
+  m_PrefabInstance: {fileID: 6444443923576449193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4281436002038507835 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7063320724687028626, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+    type: 3}
+  m_PrefabInstance: {fileID: 6444443923576449193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &6501706541151478683 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 240362297310579506, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+    type: 3}
+  m_PrefabInstance: {fileID: 6444443923576449193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8741503908019401729 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2323660491519270056, guid: 1e82ffa9dbb4f184d93770f3fc00de36,
+    type: 3}
+  m_PrefabInstance: {fileID: 6444443923576449193}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653233335181822954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba78aa908cea3942b18c1a574e60c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

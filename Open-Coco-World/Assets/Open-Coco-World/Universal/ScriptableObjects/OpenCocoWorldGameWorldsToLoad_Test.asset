@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b9ed698b461bc84f8abedebcca42113, type: 3}
+  m_Name: OpenCocoWorldGameWorldsToLoad_Test
+  m_EditorClassIdentifier: 
+  worldsToLoad:
+  - {fileID: 11400000, guid: 4299939a126d0554b8cd31d18264b996, type: 2}
+  - {fileID: 11400000, guid: 7b7f0076e8f47d141a223373445d83ac, type: 2}
+  - {fileID: 11400000, guid: 514fa1656d7fee740a1fd5989d7d8ed2, type: 2}
+  - {fileID: 11400000, guid: 4160874a232e0d74da47d13a772b3f34, type: 2}
+  - {fileID: 11400000, guid: de86ef91d08c31c438d7fb76a48e83b2, type: 2}
