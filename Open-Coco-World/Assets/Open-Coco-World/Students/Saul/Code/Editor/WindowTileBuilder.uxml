@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label text="This is the &quot;Tile Generator&quot;" style="-unity-font-style: bold; -unity-text-align: upper-center;" />
+        <ui:Toggle label="Active Tile Generator" name="Operating" />
+        <uie:ObjectField label="Prefab Tile To Instance" name="PrefabToInstance" allow-scene-objects="false" value="project://database/Assets/Open-Coco-World/Students/Saul/Prefabs/barrier_1x1x1_blue.prefab?fileID=919132149155446097&amp;guid=5251789dcfc6c4d4bbcd2b2f9cbf2878&amp;type=3#barrier_1x1x1_blue" />
+        <ui:IntegerField label="Layer Of Prefab" value="16" name="LayerOfPrefab" />
+        <ui:Button text="Instance" name="InstanceWithoutClickButton" />
+        <ui:Button text="Delete Last Instance" name="DeleteLastInstanceButton" />
+        <ui:Button text="Delete All Instances" name="DeleteAllInstanceButton" />
+    </ui:VisualElement>
+</ui:UXML>

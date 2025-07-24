@@ -2,8 +2,18 @@
     <ui:VisualElement name="VisualElement" style="flex-grow: 0; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
         <ui:Label text="PRIMER VISUAL ELEMENT" style="align-self: center; color: rgb(178, 66, 61); -unity-font-style: bold; font-size: 21px;" />
         <ui:Label text="Hola Mundo :D" />
-        <ui:Button text="Button" style="margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; padding-right: 2px; padding-left: 2px; padding-top: 2px; padding-bottom: 2px;" />
+        <ui:Toggle label="Test Toogle any value you want" name="ToggleTest" />
+        <ui:FloatField label="Hoy va a llover :&apos;(" value="42.2" name="FloatTest" />
+        <ui:Vector3Field label="Vec3 Field" name="Vector3Test" />
+        <uie:ObjectField label="GameObjectTest" name="GameObjectTest" value="project://database/Assets/KayKit/Packs/Platformer%20Pack%20(for%20Unity)/Prefabs/blue/platform_1x1x1_blue.prefab?fileID=919132149155446097&amp;guid=627e804abececea4da63cf1cc6b4928a&amp;type=3#platform_1x1x1_blue" />
+        <uie:ObjectField label="GameObjectTest" name="GameObjectTest_01" value="project://database/Assets/KayKit/Packs/Platformer%20Pack%20(for%20Unity)/Prefabs/red/platform_1x1x1_red.prefab?fileID=919132149155446097&amp;guid=03b2188fedb79f0468195df9b9d371d0&amp;type=3#platform_1x1x1_red" />
+        <ui:Button text="Instantiate the prefab!!!!!! :D" name="CreateInstanceButton" style="margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; padding-right: 2px; padding-left: 2px; padding-top: 2px; padding-bottom: 2px;" />
         <ui:Label text="Soy otra label" />
+        <ui:Foldout text="Foldout">
+            <ui:Slider label="Slider" value="42" high-value="100" />
+            <ui:TextField label="Text Field" placeholder-text="filler text" />
+        </ui:Foldout>
+        <uie:ObjectField label="Prefab to assign" allow-scene-objects="false" name="PrefabTest" />
     </ui:VisualElement>
     <ui:VisualElement name="VisualElement" style="flex-grow: 0; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
         <ui:Label text="SEGUNDO VISUAL ELEMENT" style="align-self: center; color: rgb(27, 183, 137); -unity-font-style: bold; font-size: 21px;" />

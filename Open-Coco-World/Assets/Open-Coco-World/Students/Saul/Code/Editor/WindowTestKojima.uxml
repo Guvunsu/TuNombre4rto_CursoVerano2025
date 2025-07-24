@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label text="Instanciador de Bloques 1x1" name="Label" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 12px;" />
+        <ui:Toggle label="Activar Instanciador" name="Operating" />
+        <ui:FloatField label="¿Cuantos Objetos Quieres?" value="42.2" name="FloatTest" style="font-size: 12px;" />
+        <uie:ObjectField label="Mete un Objeto aqui" name="ObjectTest" allow-scene-objects="false" style="font-size: 12px;" />
+        <uie:ObjectField label="Mete un Prefab aqui" name="PrefabTest" allow-scene-objects="true" style="font-size: 12px;" />
+        <ui:Vector3Field label="Vec3 Field" name="Vector3Test" />
+        <ui:Button text="InstanciaTusGameObject" name="CreateInstanceButton" />
+    </ui:VisualElement>
+</ui:UXML>
